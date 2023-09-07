@@ -1,0 +1,82 @@
+Chapter 1
+JS Overview - This course will teach you the basic and advanced consepts of JavaScript
+
+JS Prerequisites
+1. Computer literacy
+2. Basic understanding of HTML
+3. Basic understanding of CSS
+
+See Example 1 - It shows an element that when clicked, its style changes.
+
+Quiz
+Do you need to have basic understanding of CSS to learn JavaScript?
+Yes
+No
+
+Do you need to be a computer literate to learn JavaScript?
+Yes
+No
+
+Do you need to have basic understanding of HTML to learn JavaScript?
+Yes
+No
+
+--------------------------------
+
+Chapter 2
+
+What is JavaScript?
+JavaScript is a programming or a scripting language that allows the implementation of features on web pages.
+
+What can JS do?
+It can do a lot! Here are some:
+
+It can change the content of HTML elements. See Example 2
+function myFunc() {
+	document.getElementById("demo").innerHTML = "Hello Everyone!";
+}
+
+It can change the value of attributes. See Example 3
+function myFunc() {
+	document.getElementById("image").src = "images/star.png"
+
+It can change the styling of HTML elements.
+function myFunc() {
+	document.getElementById("demo").style.color = "green";
+	document.getElementById("demo").style.fontWeight = "bold";
+	document.getElementById("demo").style.fontSize = "300%";
+	document.getElementById("demo").style.display = "block";
+}
+
+Quiz
+Which language do you use to style HTML elements
+JavaScript
+HTML
+CSS
+
+True or False: JavaScript can change the value of HTML attributes.
+
+True or False: JavaScript can change the content of HTML attributes.
+
+It is a scripting language that lets us implement features on web pages
+CSS
+JavaScript
+HTML
+
+These are the building blocks of web page
+CSS properties
+HTML elements
+JavaScript statements
+
+
+Chapter 3
+Writing JavaScript Code
+
+JS codes should be written inside the <script> element.
+<script>
+	document.write("Hello World!");
+</script>
+
+<script> placement: When the <script> is inside the <head>, it loads first before the content of the page.
+When its inside the <body>, it loads after the content of the page (HTML elements) loads.
+It is a preferred option to place the <script> tag at the bottom of the <body> tag. See example 4.
