@@ -77,6 +77,167 @@ JS codes should be written inside the <script> element.
 	document.write("Hello World!");
 </script>
 
-<script> placement: When the <script> is inside the <head>, it loads first before the content of the page.
+Internal JavaScript: When the <script> is inside the <head>, it loads first before the content of the page.
 When its inside the <body>, it loads after the content of the page (HTML elements) loads.
 It is a preferred option to place the <script> tag at the bottom of the <body> tag. See example 4.
+
+External JavaScript: JavaScript can also be placed in external files. 
+It uses .js e.g. script.js
+See example 5
+
+QUIZ
+Can you put the <script> elemebr inside the <body>?
+Yes
+No
+
+True or False: JavaScript codes can NOT be in external files
+
+Can you put the <script> element inside the <head>?
+Yes
+No
+
+Which HTML element should you use to write JavaScript codes
+<script>
+<style>
+
+
+
+Chapter 4
+JS Displaying Output
+There are 4 ways of displaying output:
+1. Using Console:
+By using consol.log(). See Example 6
+
+2. Using Dialog Boxes
+By using the alert() function. See Example 7
+
+3. Writing to HTML Elements
+By using the innerHTML property, we can change the content of text of the selected element. 
+We can use the document.getElementById() function to select an element. See Example 8
+
+4. Writing to the Browser Window
+By using the document.write() function, we can write to the content of the document. 
+Note that this should only be used for testing purposes as it will delete all existing HTML in the current page. See Example 9.
+
+QUIZ
+Which of the following shows an alert dialog box with a message?
+console.log()
+alert()
+document.write()
+
+Which should you use to change the content of an HTML element?
+alert()
+innerHTML
+
+Which of the following writes to the browser's window?
+document.write()
+alert()
+console.log()
+
+Which of the following writes to the brower's console?
+alert()
+console.log()
+document.write()
+
+
+
+Chapter 5
+JS Statements
+JS statement may span a single or multiple lines
+Example of single line statement: document.getElementById("elem").innerHTML = "Hello World!";
+
+Example of multiple lines statement: document.getElementById("elem").innerHTML = 
+"Hello World!";
+
+Grouping JS Statements.
+JavaScipt is grouped inside curley bracker called code blocks. It makes statements to be executed together
+function myFunc() {
+	document.getElementById("demo").innerHTML = "Hello World!"
+}
+
+JS Keywords
+JS statements usually start with a keyword.
+Forexample, to declare a variable, we use the var keyword.
+function myFunc() {
+	var text = "Hello World!"
+	document.getElementById("demo").innerHTML = text;
+}
+
+QUIZ
+What does a JavaScript program consist of?
+element
+statements
+
+Does this statement span a single line or multiple lines?
+document.getElementById("p").innerHTML = "Hello World!";
+single
+multiple
+
+Which of the following are used to group JavaScript statements?
+square brackets []
+curly brackets {}
+
+What is a JavaScript code block?
+A group of CSS properties.
+A group of JavaScript statements
+
+Does this statement span a single line or multiple lines?
+document.getElementById("p").innerHTML = "Hello World!";
+multiple
+single
+
+
+
+Chapter 6
+JS Syntax
+JS follows a set of rules called syntax
+
+Variable declaration: Values are assigned to variables. In JS, this is called declaring variables. 
+To declare a variable, use the var keyword to create it, num as the identifier and then an equal sign = to assign a value. 
+The equal sign (=) is called the assignment operator.
+var num = 5;
+document.write(num);
+
+Naming Identifiers  (variable names)
+An identifier shoulf start with a letter, an underscore or a dollar sign
+An identifier cannot start with a number
+An identifier is case-sensitive
+An identifier can only contain letters, digits, underscores and dollar signs
+JS reserved keywords (like var, function, if, else, etc.) cannot be used as variable names.
+
+JS is Case-Sensitive: See Example 10
+
+QUIZ
+What do you call the set of rules that JS follows?
+What are identifiers?
+True or False: JavaScript is case-sensitive
+Does JS follow a set of rules?
+Which keyword should you use to create a variable?
+What are variable used for? to hold values
+What is the value of the x variable?
+var x = 21;
+var y = 31;
+
+
+
+
+Chapter 7
+JS Comments:
+JS comments are used to make programming easier to read and understand
+There are two types of comments in JS, the single-line and the multi-line
+Single-line comments // OR /* */
+Multi-line comments /* */
+
+QUIZ
+Can you use comments to disable some codes?
+Which should you use to write a comments that span multiple lines?
+They can be used to make codes easier to read and understand
+True or False: In JS, it is NOT possible to write multiple lines of comments.
+
+
+
+
+Chapter 8
+JS Data Types
+
+
