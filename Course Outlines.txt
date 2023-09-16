@@ -236,8 +236,26 @@ True or False: In JS, it is NOT possible to write multiple lines of comments.
 
 
 
-
 Chapter 8
 JS Data Types
+Data types are the different kinds of data that can be stored or used in a JS program.
+
+String Data Type: It is a sequence of characters used to represent text
+var name = "John Doe";
+var name1 = 'John Doe';
+
+Number Data Type: It is an integer or a floating point number (number with decimal)
+var x = 4;
+var y = 5.5;
+
+Combining Strings and Numbers. 
+N.B: JS evaluates from the left to right. See example  11
+
+Boolean Data Type: It is a logical data type that can only have true or false as values
+Booleans are mainly used for conditional testing.
+Booleans are the output of comparison operators ==
+See example 12
+
+
 
 
