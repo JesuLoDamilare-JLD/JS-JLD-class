@@ -256,6 +256,32 @@ Booleans are mainly used for conditional testing.
 Booleans are the output of comparison operators ==
 See example 12
 
+Undefined Data Type: If a variable has no assigned value, the value is undefined.
+See example 13
+
+The null Data Type: The null data type is a special data type denoting a null value - meaning its not an empty string "" or 0. It simple meanings nothing
+See example 14
+
+Object Data Type: is a collection of related data.
+Objects contain properties writen in "key: value" pairs.
+Each pair is separated by a comma
+Objects are written inside curly braces {}
+See example 15
+
+JavaScript Arrays
+A JS array is a collection of values. Each value is separated with a comma
+It is written with square brackets []
+The data type of array is object
+See example 16
+
+JavaScript is Dynamic
+JS is a dynamic language.
+Variables are not directly associated with a single data type, unlike in other programming languages.
+Any variable in JS can be reassigned to values of all types
+See example 17
+
+The typeof Operator: returns a string indicating the data type of the evaluated operand
+See example 18
 
 
 

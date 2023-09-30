@@ -6,15 +6,17 @@
     <title>Example 4</title>
 </head>
 <script type="text/javascript">
-    document.getElementById("btn").addEventListener("click", function() {
-       document.getElementById("demo").innerHTML = "Hello Everyone!";
-    });
- </script>
+   document.getElementById("btn").addEventListener("click", function() {
+      document.getElementById("demo").innerHTML = "Hello Everyone!";
+   });
+</script>
 </head>
 <body>
  <p> This would not work because the event listener loaded first before the HTML element. </p>
  <p id="demo"> Hello World! </p>
  <button id="btn"> Change Value </button>
 
+
+ 
 </body>
 </html>
