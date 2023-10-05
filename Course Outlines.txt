@@ -230,8 +230,8 @@ Multi-line comments /* */
 
 QUIZ
 Can you use comments to disable some codes?
-Which should you use to write a comments that span multiple lines?
-They can be used to make codes easier to read and understand
+What should you use to write a comments that span multiple lines?
+What makes codes easier to read and understand
 True or False: In JS, it is NOT possible to write multiple lines of comments.
 
 
@@ -283,5 +283,93 @@ See example 17
 The typeof Operator: returns a string indicating the data type of the evaluated operand
 See example 18
 
+Primitive Data
+Primitive data are data that are not object and has no methods.
+There are 4 basic primitive data types: string, number, boolean, undefined
+
+Complex Data
+There are two complex data types: object and function.
+Both primitive and complex data can be returned by the typeof operator
+
+Excercise
+1. Assign Hello World string value to text variable
+2. Assign number 21 to num variable
+3. What is the data type of x?
+	var x = 21;
+4. Is an array an object? Yes or No
+5. What is the data type of x?
+	var x = {
+	      firstName: "John",
+	      lastName: "Doe"
+	};
+6. What is the data type of x?
+	var x = true;
+7. What is the data type of x?
+	var x = "Hello World!";
 
 
+
+Chapter 9
+JS Operators
+JS opertors are used to perform particular actions.
+They can be used to assign values, compare values, combine value, perform arithmetic operations and more.
+JS operators are symbols (or set of symbols) or keywords.
+
+Types of operators:
+Assignment Operators: It uses the equal = symbol
+var x = 23
+
+Arithmetic Operators:
+They are used to perform arithmetic operations like addition, subtraction, multiplication and division
+See example 19
+
+String Operators:
+They are used to concatenate or add strings
+See example 20
+
+Comparison Operators:
+It returns a Boolean based on whether comparison is true or false
+See example 21
+
+Excercise:
+1. Assign 7 to x and 3 to y. And them add to find the result.
+Then, deduct y from x
+2. Type out assignment operator
+3. True of Falls, you can perform arithmetic operations with JS.
+4. True of Falls, the addition operator can be used as a string operator
+
+
+Chapter 10
+JS Arithmetic Operators
+THere are 8 basic arithmetic operators
+Exponential (**)
+See example 22
+
+Remainder/Modulus (python) (%)
+See example 23
+
+Increment (++)
+See example 24
+
+Decrement (--)
+See example 25
+
+Operator Sequence
+PEMDAS
+See example 26
+
+Excercise:
+1. Assign 12 to x and 4 to y then assign their multiplication to "result" 
+2. What is arithmetic operator
+
+
+Chapter 11
+JS Assignment Operator
+There are 7 basic assignment operators
+
+Exercise:
+1. Compute an example for each of the 7 types mentioned
+2. which of the assignment operators can be used with strings
+3. compute an example of using assignment operator with strings
+
+Chapter 12
