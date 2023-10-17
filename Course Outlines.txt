@@ -335,8 +335,8 @@ Excercise:
 1. Assign 7 to x and 3 to y. And them add to find the result.
 Then, deduct y from x
 2. Type out assignment operator
-3. True of Falls, you can perform arithmetic operations with JS.
-4. True of Falls, the addition operator can be used as a string operator
+3. True of False, you can perform arithmetic operations with JS.
+4. True of False the addition operator can be used as a string operator
 
 
 Chapter 10
