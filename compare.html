@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparison Operator</title>
+</head>
+<body>
+    <p id="demo"></p>
+<!-- Equality Operator -->
+    <script>
+        // document.getElementById("demo").innerHTML =
+        // (2 == 2) + "<br />" +
+        // (2 == 4) + "<br />" +
+        // ("2" == 2) + "<br />" +
+        // ("Hello World" == "Hello World") + "<br />" +
+        // ("Hello World" == "Hello everyone");
+
+
+        // Inequality Operator (!=)
+        // document.getElementById("demo").innerHTML =
+        // (2 != 2) + "<br />" +
+        // (2 != 4) + "<br />" +
+        // ("2" != 2) + "<br />" +
+        // ("Hello World" != "Hello World") + "<br />" +
+        // ("Hello World" != "Hello everyone");
+
+
+        // Identity Operator (===)
+        // document.getElementById("demo").innerHTML =
+        // (2 === 2) + "<br />" +
+        // (2 === 4) + "<br />" +
+        // ("2" === 2) + "<br />" +
+        // ("Hello World" === "Hello World") + "<br />" +
+        // ("Hello World" === "Hello everyone");
+
+        // Non -identity Operator (!==)
+
+        // document.getElementById("demo").innerHTML = ("4"!==4);
+
+        // // Greater than Operator (>)
+        // document.getElementById("demo").innerHTML =
+        // (4 > 2) + "<br />" +
+        // (2 > 4) + "<br />" +
+        // (2.25 > 2.24) + "<br />" +
+        // (2.24 > 2.25);
+
+
+        // Greater than or equal Operator (>=)
+
+        // document.getElementById("demo").innerHTML =
+        // (4 >= 2) + "<br />" +
+        // (2 >= 4) + "<br />" +
+        // (2.25 >= 2.24) + "<br />" +
+        // (2.24 >= 2.25) + "<br />" +
+        // (4 >= 4);
+
+
+        // Less than Operator (<=)
+
+        // document.getElementById("demo").innerHTML =
+        // (4 <= 2) + "<br />" +
+        // (2 <= 4) + "<br />" +
+        // (2.25 <= 2.24) + "<br />" +
+        // (2.24 <= 2.25) + "<br />" +
+        // (4 <= 4) + "<br />" + //true
+        // (5 < 5) + "<br />" + //false
+        // (6 > 6) + "<br />" + //false
+        // (4 == 4) + "<br />" + //true
+        // (4 === 4) + "<br />" + //true
+        // (4 === "4") + "<br />" + //false
+        // (4 >= 4); //true
+
+
+        // const x = 4;
+        // const y = 5;
+        // document.write(x);       
+        // document.write(y);
+
+        // let okeAge = 40;
+        // let judeAge  = 50;
+        // if (okeAge <= judeAge){
+        //     document.write("Oke is younger than Jude");
+        // }
+
+
+        // Logical 
+        // Logical AND  &&    expression1 && expression2 returns TRUE if both expressions are TRUE
+        // Logical OR   ||     expression1 || expression2 returs TRUE if either of the expressions is TRUE
+        // Logical NOT  !      !expression returns TRUE if the operand is not true
+
+        // Logical AND operator returns true if the both operand are true
+
+        // document.getElementById("demo").innerHTML =
+        // (true && true) + "<br />" +
+        // (true && false) + "<br />" +
+        // (3==3 && 4==4)  + "<br />" +
+        // (3==4 && 4==4) + "<br />" +
+        // (5>3 && 4<6) + "<br />" +
+        // (5>3 && 6<4);
+
+        // // Logical OR   ||     expression1 || expression2 returs TRUE if either of the expressions is TRUE
+        
+        // document.getElementById("demo").innerHTML =
+        // (true || true) + "<br />" +
+        // (true || false) + "<br />" +
+        // (3==3 || 4==4)  + "<br />" +
+        // (3==4 || 4==4) + "<br />" +
+        // (5>3 || 4<6) + "<br />" +
+        // (5>9 || 9<6) + "<br />" +
+        // (5>3 || 6<4);
+
+
+        // Logical NOT (!)
+        // document.getElementById("demo").innerHTML =
+        // !(true) + "<br />" + //returns false
+        // !(false) + "<br />" + // returns true
+        // !(3==3)  + "<br />" + //returns false
+        // !(3=="3")  + "<br />" + // return false
+        // !(3==="3")  + "<br />" + //return true
+        // !(4<6); //false
+
+
+        // Using Logical Operators with conditional statement
+        // if ("3"===3 || 4==="4"){
+        //     document.write("The two expressions are found true");
+        // } 
+        // else{
+        //     document.write("THE TWO EXPRESSIONS ARE NOT TRUE!!");
+        // }
+
+        // let gender = "male";
+        // let age = 18;
+        // if (age<=25 && gender==="male" )
+        // {
+        //     document.write('You are qualified!');
+        // }
+        // else{
+        //     document.write('YOU ARE NOT QUALIFIED');
+        // }
+
+
+
+
+        //Condtional (Ternary) Operator
+            // condition? value1 : value2;
+
+        // let gender = "male";
+        // let age = 18;
+        // age >=25 && gender === "male"? document.write('You are qualified!') : document.write('YOU ARE NOT QUALIFIED');
+
+
+
+        // More about Object
+        /*
+        Object is a collectionof related data or function
+        ECMA SCRIPT EC5
+        */
+
+        // const person = {
+        //     fullName : "Okechwukwu Jude",
+        //     age: 30,
+        //     hobbies : ["coding", "playing chess", "music", "dancing"],
+        //     isMarried : true
+
+        // }
+
+
+        // const student = {
+        //     fullName : "Okechwukwu Jude",
+        //     age: 30,
+        //     showName: function(){
+        //         alert(this.fullName);
+        //     },
+        //     showAge: function(){
+        //         alert(this.age);
+        //     }
+        // }
+
+        /*Ways to command a value from an object
+        There are two ways:
+        Dot Notation
+        Square bracket notation
+        */
+
+    //    document.write(person.fullName); 
+    //    document.write(person.hobbies[1]);
+
+    // JS strings
+    // let a = "I love";
+    // let b = "playing chess";
+    // // Using interpolation
+    // document.write(`I want to tell you that ${a} ${b}`);
+    // document.write("I want to tall you that" + a + b);
+
+
+    // let kelvin = 300;
+    // let celcius =  kelvin - 273;
+    // let fahreheit = celcius * (9/5) + 32;
+
+    // document.write(`Todays forecast is ${kelvin} in kelvin, and ${celcius} in celcius and ${fahreheit} in fahrenheit`);
+
+
+/*COnditional statement
+if, else if, and else statements
+switch
+*/
+
+let sale = false;
+if (sale){
+    document.write("Time to buy!");
+}
+else{
+    document.write("Time to wait for a sale.");
+}
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
