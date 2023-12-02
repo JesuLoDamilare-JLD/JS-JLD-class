@@ -1,0 +1,54 @@
+Manipulating the body
+
+document.body.innerHTML = "<h1> This is the heading</h1>";
+-------------------
+
+
+
+Select and Modify Elements
+
+document.querySelector("h1").innerHTML = "Most popular Harry Potter Characters";
+document.getElementById("fourth").innerHTML = "Professor Snape";
+document.getElementsByClassName("slytherin")[0].innerHTML = "Salazar Slytherin";
+document.getElementsByTagName("li")[0].innerHTML = "Dobby";
+
+------------
+
+Style an Element
+
+
+document.body.style.backgroundColor = "#201F2E";
+document.querySelector("h1").style.fontFamily = "Roboto";
+
+---------------
+
+Create and Insert Elements
+
+let newAttraction = document.createElement("li");
+newAttraction.id = "vespa";
+newAttraction.innerHTML = "Rent a Vespa";
+document.getElementById("italy-attractions").appendChild(newAttraction);
+
+
+ ------------------
+Remove Elements
+
+let elementToRemove = document.getElementById("vespa");
+elementToRemove.remove();
+
+-------------------
+Add Click Interactivity
+
+
+let element = document.querySelector('button');
+
+function turnButtonRed(){
+  // Add code to turn button red
+element.style.backgroundColor = "red";
+element.style.color = 'white';
+element.innerHTML = "Red Button";
+}
+element.onclick = turnButtonRed;
+
+
+
